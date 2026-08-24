@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download Soundwave Music App for Android</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090A0F;
+      --surface: #12141D;
+      --surface-2: #1A1D2B;
+      --border: rgba(255, 255, 255, 0.1);
+      --accent: #F59E0B;
+      --accent-glow: rgba(245, 158, 11, 0.4);
+      --text: #F3F4F6;
+      --text-muted: #9CA3AF;
+      --radius: 20px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+      background-image: radial-gradient(circle at 50% 10%, rgba(245, 158, 11, 0.15) 0%, transparent 60%);
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 40px 28px;
+      width: 100%;
+      max-width: 440px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+      box-shadow: 0 20px 48px rgba(0, 0, 0, 0.6);
+    }
+    .logo {
+      width: 84px;
+      height: 84px;
+      border-radius: 22px;
+      object-fit: cover;
+      box-shadow: 0 8px 24px var(--accent-glow);
+    }
+    h1 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 26px;
+      letter-spacing: -0.02em;
+      color: #fff;
+    }
+    .subtitle {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(245, 158, 11, 0.12);
+      color: var(--accent);
+      border: 1px solid rgba(245, 158, 11, 0.3);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+    }
+    .btn-download {
+      width: 100%;
+      background: var(--accent);
+      color: #000;
+      font-weight: 800;
+      font-size: 16px;
+      padding: 16px;
+      border-radius: 14px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      box-shadow: 0 6px 20px var(--accent-glow);
+      transition: transform 0.15s, opacity 0.15s;
+    }
+    .btn-download:hover {
+      opacity: 0.95;
+      transform: translateY(-2px);
+    }
+    .features {
+      width: 100%;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      text-align: left;
+      font-size: 13px;
+    }
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #D1D5DB;
+    }
+    .feature-item span.icon {
+      color: var(--accent);
+      font-weight: 800;
+    }
+    .footer {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-top: 8px;
+    }
+    .footer a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="logo.png" alt="Soundwave" class="logo" />
+    
+    <div>
+      <h1>Soundwave</h1>
+      <p class="subtitle">Stream & discover unlimited music on Android</p>
+    </div>
+
+    <div class="badge">
+      <span>●</span> Latest Release v1.3.0
+    </div>
+
+    <a href="https://raw.githubusercontent.com/csbittuzx-oss/downloadsoundwaves/main/soundwave.apk" class="btn-download" download>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+        <polyline points="7 10 12 15 17 10" />
+        <line x1="12" y1="15" x2="12" y2="3" />
+      </svg>
+      <span>Download APK (1.5 MB)</span>
+    </a>
+
+    <div class="features">
+      <div class="feature-item">
+        <span class="icon">✓</span>
+        <span>Ultra-fast YouTube audio streaming engine</span>
+      </div>
+      <div class="feature-item">
+        <span class="icon">✓</span>
+        <span>Live instant search across all languages</span>
+      </div>
+      <div class="feature-item">
+        <span class="icon">✓</span>
+        <span>Ad-free background playback</span>
+      </div>
+      <div class="feature-item">
+        <span class="icon">✓</span>
+        <span>Zero bloat & lightweight</span>
+      </div>
+    </div>
+
+    <p class="footer">
+      Developed by <a href="https://instagram.com/panditbittu.x" target="_blank">Pandit Bittu</a>
+    </p>
+  </div>
+</body>
+</html>
